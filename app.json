@@ -1,0 +1,12 @@
+{
+  "name": "ztech",
+  "displayName": "ztech",
+  "expo": {
+    "name": "ztech",
+    "slug": "ztech",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
