@@ -15,6 +15,10 @@ module.exports = {
         "prettier/@typescript-eslint",
         "plugin:prettier/recommended",
       ],
+      rules: {
+        "import/prefer-default-export": "off",
+        "react-hooks/exhaustive-deps": "warn",
+      },
     },
   ],
 };
