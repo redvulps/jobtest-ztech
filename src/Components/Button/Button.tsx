@@ -5,9 +5,13 @@ import { ButtonProps, ButtonColor } from "./types";
 
 const Button: React.FC<ButtonProps> = (props) => {
   const cleanProps = { ...props };
-  const { color = ButtonColor.Primary } = props;
+  const { color = ButtonColor.Primary, disabled } = props;
 
   delete cleanProps.color;
+
+  const disabledStyle = {
+    opacity: disabled ? 0.5 : 1,
+  };
 
   return (
     <ThemeContext.Consumer>
@@ -18,7 +22,7 @@ const Button: React.FC<ButtonProps> = (props) => {
           <TouchableOpacity
             // eslint-disable-next-line react/jsx-props-no-spreading
             {...cleanProps}
-            style={[theme?.container, cleanProps.style]}
+            style={[theme?.container, cleanProps.style, disabledStyle]}
           >
             <Text style={theme?.text}>{props.children}</Text>
           </TouchableOpacity>
