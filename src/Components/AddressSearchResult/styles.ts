@@ -11,9 +11,6 @@ export default StyleSheet.create({
     paddingBottom: themeDefaults.gutter,
   },
   suggestionListContainer: {
-    flex: 1,
-  },
-  suggestionListWrapper: {
     marginLeft: themeDefaults.gutter,
     marginRight: themeDefaults.gutter,
     backgroundColor: themeDefaults.colors.background,
