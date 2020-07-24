@@ -41,6 +41,10 @@ export interface ThemeConfigOptions {
       input?: StyleProp<TextStyle>;
     };
   };
+  footer?: {
+    container?: StyleProp<ViewStyle>;
+    text?: StyleProp<TextStyle>;
+  };
   simpleHeader: {
     container?: StyleProp<ViewStyle>;
   };

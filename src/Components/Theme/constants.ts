@@ -116,6 +116,17 @@ export const themeDefaults: ThemeConfigOptions = {
       justifyContent: "center",
     },
   },
+  footer: {
+    container: {
+      backgroundColor: themeColors.backgroundDark,
+    },
+    text: {
+      color: themeColors.primaryOnDarkBackground,
+      marginTop: gutter,
+      marginBottom: gutter,
+      textAlign: "center",
+    },
+  },
   textInput: {
     container: {
       borderRadius: 5,
