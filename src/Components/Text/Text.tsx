@@ -10,6 +10,6 @@ const Text: React.FC<TextProps> = (props: TextProps) => (
       <NativeText {...props} style={[consumer.text, props.style]} />
     )}
   </ThemeContext.Consumer>
-)
+);
 
 export default Text;

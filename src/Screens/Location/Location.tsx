@@ -1,23 +1,15 @@
 import React from "react";
 import { View, ActivityIndicator } from "react-native";
-import {
-  useNavigation,
-  useRoute,
-  CommonActions,
-} from "@react-navigation/native";
+import { useNavigation, useRoute } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
 
 import Button, { ButtonColor } from "../../Components/Button";
 import TextInput from "../../Components/TextInput";
 import Text from "../../Components/Text";
-import {
-  LocationCoords,
-  fetchAddressFromCoordsInit,
-} from "../../Redux/Location";
+import { fetchAddressFromCoordsInit } from "../../Redux/Location";
 import { RootState } from "../../Redux/store";
 
 import Styles from "./styles";
-import AddressSearch from "../../Components/AddressSearch";
 import resetNavigationTo from "../../Helpers/resetNavigationTo";
 
 const Location: React.FC = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollView, View, Image, Dimensions } from "react-native";
+import { ScrollView, View, Dimensions } from "react-native";
 
 import { ThemeContext } from "../../../Components/Theme";
 import Text from "../../../Components/Text";

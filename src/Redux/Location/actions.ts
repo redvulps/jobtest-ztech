@@ -99,7 +99,9 @@ export const fetchSuggestionsFromQueryError = (
   error,
 });
 
-export const fetchSuggestionsFromQuery = (query: string) => {
+export const fetchSuggestionsFromQuery = (
+  query: string
+): Promise<LocationSuggestion[]> => {
   return fetch(
     `https://maps.googleapis.com/maps/api/place/autocomplete/json?input=${encodeURIComponent(
       query
@@ -118,7 +120,9 @@ export const fetchSuggestionsFromQuery = (query: string) => {
     });
 };
 
-export const fetchAddressFromSuggestionInit = (placeId: string) => ({
+export const fetchAddressFromSuggestionInit = (
+  placeId: string
+): LocationAction => ({
   type: LOCATION_FETCH_ADDRESS_FROM_SUGGESTION_INIT,
   placeId,
 });
