@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 7.5,
+      "elevation": 3,
+      "height": 300,
+      "marginLeft": 15,
+      "marginRight": 15,
+      "opacity": 1,
+      "paddingTop": 15,
+      "shadowColor": "#000000",
+      "shadowOpacity": 1,
+      "shadowRadius": 5,
+      "width": 450,
+    }
+  }
+>
+  <Image
+    resizeMode="contain"
+    source={
+      Object {
+        "uri": "http://via.placeholder.com/400",
+      }
+    }
+    style={
+      Object {
+        "height": 200,
+        "marginBottom": 15,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderTopColor": "rgb(243, 243, 243)",
+        "borderTopWidth": 1,
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgb(51, 51, 51)",
+        }
+      }
+    >
+      Test Product
+    </Text>
+  </View>
+</View>
+`;
