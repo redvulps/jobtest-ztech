@@ -1,12 +1,13 @@
 {
-  "name": "ztech",
-  "displayName": "ztech",
+  "name": "ztech-zedelivery",
+  "displayName": "Zé Delivery",
   "expo": {
-    "name": "ztech",
-    "slug": "ztech",
+    "name": "ztech-zedelivery",
+    "slug": "ztech-zedelivery",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "privacy": "unlisted"
   }
 }
