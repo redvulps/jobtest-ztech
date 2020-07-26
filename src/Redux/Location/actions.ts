@@ -17,7 +17,9 @@ import {
   LOCATION_FETCH_ADDRESS_FROM_SUGGESTION_ERROR,
 } from "./constants";
 
-const { GOOGLE_API_KEY } = process.env;
+// This is done due a bug on the current expo sdk (https://github.com/expo/expo/issues/8090)
+// Fix will only be available on SDK version 39 or 40
+const GOOGLE_API_KEY = "PLACE_GOOGLE_API_KEY_HERE";
 
 export const fetchAddressFromCoordsInit = (
   coords: LocationCoords
