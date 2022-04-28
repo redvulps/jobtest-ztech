@@ -12,7 +12,7 @@
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "^5.7.1",
     "@react-navigation/stack": "^5.7.1",
-    "cross-fetch": "^3.0.5",
+    "cross-fetch": "^3.1.5",
     "enzyme-adapter-react-16": "^1.15.2",
     "expo": "~38.0.1",
     "expo-location": "~8.2.1",
